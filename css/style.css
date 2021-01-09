@@ -1,0 +1,298 @@
+body {
+    background-color: #dddddd;
+}
+
+.navbar {
+    background-color: #2874f0;
+}
+
+.bg-WhiteNav {
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23);
+    font-weight: 500;
+}
+
+.hoverBlue li a:hover {
+    color: #2874f0 !important;
+}
+
+#custom-search-input {
+    padding: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23);
+    background-color: #fff;
+    width: 600px;
+}
+
+#custom-search-input input {
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button {
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #2874f0;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover {
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search {
+    font-size: 23px;
+}
+
+
+/* Carousel Section CSS */
+
+
+/* Carousel Section CSS */
+
+
+/* Product View Section  CSS */
+
+.slider-wrapper ::before {
+    box-sizing: inherit;
+}
+
+.slider-wrapper ::after {
+    box-sizing: inherit;
+}
+
+.slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+    padding: 25px 20px 20px;
+    white-space: wrap;
+}
+
+.prev {
+    color: white;
+    position: absolute;
+    background-color: #2874f0;
+    padding: 10px;
+    top: 45%;
+    left: -10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.prev:hover {
+    color: #2874f0;
+    border: 2px solid #2874f0;
+    background-color: #fff;
+}
+
+.next {
+    color: white;
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    background-color: #2874f0;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.next:hover {
+    color: #2874f0;
+    border: 2px solid #2874f0;
+    background-color: #fff;
+}
+
+.fact {
+    vertical-align: top;
+    display: inline-block;
+    height: auto;
+    width: 15rem;
+    background-color: white;
+    padding: 20px;
+    margin: 0px 25px 0px 5px;
+    border-radius: 15px;
+    box-shadow: 0 1.6px 3.6px rgba(0, 0, 0, 0.01), 0 4.5px 10px rgba(0, 0, 0, 0.015), 0 10.9px 24.1px rgba(0, 0, 0, 0.02), 0 36px 80px rgba(0, 0, 0, 0.03);
+}
+
+
+/* Product View Section  CSS */
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+}
+
+
+/* Product View Section  CSS */
+
+
+/* Offer SEction CSS */
+
+.offerSection img {
+    height: 200px;
+    width: 500px;
+    border: 1px solid gray;
+    filter: brightness(100%);
+}
+
+.offerSection img:hover {
+    filter: brightness(90%);
+}
+
+.imageRight {
+    height: 560px;
+}
+
+.BrandCard {
+    text-decoration: none !important;
+    outline: none;
+}
+
+
+/* Offer SEction CSS */
+
+
+/*footer*/
+
+.col_white_amrc {
+    color: #FFF;
+}
+
+footer {
+    width: 100%;
+    background-color: #263238;
+    min-height: 250px;
+    padding: 10px 0px 25px 0px;
+}
+
+.pt2 {
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    color: #CCC;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+}
+
+.mb10 {
+    padding-bottom: 15px;
+}
+
+.footer_ul_amrc {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_amrc li {
+    padding: 0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a {
+    color: #CCC;
+}
+
+.footer_ul_amrc li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fleft {
+    float: left;
+    font-size: 2rem;
+}
+
+.padding-right {
+    padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.footer_ul2_amrc li p {
+    display: table;
+}
+
+.footer_ul2_amrc li a:hover {
+    text-decoration: none;
+}
+
+.footer_ul2_amrc li i {
+    margin-top: 5px;
+}
+
+.bottom_border {
+    border-bottom: 1px solid #323f45;
+    padding-bottom: 20px;
+}
+
+.foote_bottom_ul_amrc {
+    list-style-type: none;
+    padding: 0px;
+    display: table;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+    display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+    color: #999;
+    margin: 0 12px;
+}
+
+.social_footer_ul {
+    display: table;
+    margin: 15px auto 0 auto;
+    list-style-type: none;
+}
+
+.social_footer_ul li {
+    padding-left: 12px;
+    padding-top: 8px;
+    float: left;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #CCC;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.social_footer_ul li:nth-child(1) {
+    padding-left: 14px;
+    padding-top: 8px;
+    float: left;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #CCC;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.social_footer_ul li a {
+    color: #CCC;
+    font-size: 16px;
+}
+
+.social_footer_ul li i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+
+/*---Footer End---*/
